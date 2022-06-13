@@ -8,6 +8,7 @@ body{
 }
 #cabeza h1{
     font-size: 3rem;
+    color: black;
 }
 .logo{
     width: 50%;
