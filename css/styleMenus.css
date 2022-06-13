@@ -9,3 +9,9 @@ body{
 #cabeza h1{
     font-size: 3rem;
 }
+.logo{
+    width: 50%;
+    height: 50%;
+    border-radius: 20%;
+    transform: translateX(9rem);
+}
