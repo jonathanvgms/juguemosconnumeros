@@ -1,0 +1,10 @@
+body{
+    font-family: 'Alfa Slab One', cursive;
+    background-color: #003F5D;
+}
+#cabeza{
+    text-align: center;
+}
+#cabeza h1{
+    font-size: 4rem;
+}
