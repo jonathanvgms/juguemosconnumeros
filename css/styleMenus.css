@@ -1,21 +1,32 @@
-body{
+/* body {
     font-family: 'Roboto', sans-serif;
     background-color: #003F5D;
     margin: 0%;
+    height: 757px;
+} */
+
+html {
+    background-color: #003F5D;
 }
-.h1, h1 {
+
+.h1,
+h1 {
     font-size: calc(1.375rem + 1.5vw);
     text-align: center;
     font-size: 3rem;
     color: black;
 }
-    
-img {
+
+.titulo {
+    color: white;
+}
+
+/* img {
     width: 30%;
     height: 30%;
     border-radius: 20%;
     transform: translateX(20rem);
-}
+} */
 
 /* .full-width-img {
     width: 50%;
