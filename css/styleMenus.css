@@ -3,16 +3,27 @@ body{
     background-color: #003F5D;
     margin: 0%;
 }
-#cabeza{
+.h1, h1 {
+    font-size: calc(1.375rem + 1.5vw);
     text-align: center;
-}
-#cabeza h1{
     font-size: 3rem;
     color: black;
 }
-.logo{
+    
+img {
     width: 50%;
     height: 50%;
     border-radius: 20%;
     transform: translateX(8.5rem);
+}
+
+.full-width-img {
+    width: 90%;
+}
+
+@media screen and (min-width: 780px) {
+    .full-width-img {
+    margin: auto;
+    width: 90%
+    }
 }
