@@ -25,7 +25,7 @@ body{
     /* SIN BORDE */
     border: none;
     /* ALTURA DEL BOTON */
-    height: 100px;
+    /* height: 100px; */
     /* FONDO DE COLOR DEL BOTON */
     background-color: rgb(126,219,87);
 }
