@@ -4,16 +4,26 @@ html{
 body{
     font-family: 'Fascinate', cursive;
 }
+
 .arriva{
     display: flex;
-    justify-content: row;
+    flex-direction: row;
     justify-content: center;
+    justify-content: space-around;
 }
 
 .fruta{
     display: flex;
     justify-content: row;
     justify-content: center;
+}
+.btn {
+    border: 6px solid;
+    border-radius: 2rem;
+    box-shadow: 5px 5px 5px rgb(29, 28, 28);
+}
+.btn:hover{
+    background-color: blue;
 }
 /* BOTON */
 .button {
@@ -26,5 +36,5 @@ body{
     /* ALTURA DEL BOTON */
     height: 100px;
     /* FONDO DE COLOR DEL BOTON */
-    background-color: rgb(126,219,87);
+    background-color: rgb(243, 134, 30);
 }
