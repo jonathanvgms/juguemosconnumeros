@@ -1,0 +1,59 @@
+html{
+    background-color: #003F5D;
+}
+body{
+    font-family: 'Fascinate', cursive;
+}
+.button{
+    font-family: 'Fascinate', cursive;
+    color: black;
+    margin: 20px;
+    font-size: 70px;
+    height: 70px;
+    border: none;
+}
+.title{
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+}
+.column
+{
+    display: flex;
+    justify-content: center;
+}
+/* .parteUno{
+    display: flex;
+    justify-content: center;
+    
+}
+.parteDos{
+    display: flex;
+    justify-content: center;
+}
+.parteTres{
+    display: flex;
+    justify-content: center;
+}
+.parteCuatro{
+    display: flex;
+    justify-content: center;
+} */
+.parteUno .button
+{
+    background-color: rgb(126,219,87);
+}
+.parteDos .button
+{
+    background-color: rgb(243, 134, 30);
+}
+.parteTres .button
+{
+    background-color: rgb(4, 75, 170);
+}
+.parteCuatro .button
+{
+    background-color: rgb(255, 0, 0);
+}
+/* rgb(126,219,87) */
+/* #f3861e */
