@@ -12,6 +12,7 @@ body{
     height: 70px;
     border: none;
 }
+
 .title{
     margin-top: 10px;
     text-align: center;
@@ -22,23 +23,6 @@ body{
     display: flex;
     justify-content: center;
 }
-/* .parteUno{
-    display: flex;
-    justify-content: center;
-    
-}
-.parteDos{
-    display: flex;
-    justify-content: center;
-}
-.parteTres{
-    display: flex;
-    justify-content: center;
-}
-.parteCuatro{
-    display: flex;
-    justify-content: center;
-} */
 .parteUno .button
 {
     background-color: rgb(126,219,87);
@@ -55,5 +39,3 @@ body{
 {
     background-color: rgb(255, 0, 0);
 }
-/* rgb(126,219,87) */
-/* #f3861e */

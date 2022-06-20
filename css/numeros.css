@@ -1,0 +1,22 @@
+html{
+    background-color: #003F5D;
+}
+body{
+    font-family: 'Fascinate', cursive;
+}
+.arriva{
+    display: flex;
+    justify-content: row;
+    justify-content: center;
+}
+.fruta{
+    padding-left: 40px;
+}
+.button {
+    font-family: 'Fascinate', cursive;
+    color: black;
+    margin: 20px;
+    height: 70px;
+    border: none;
+    background-color: rgb(126,219,87);
+}
