@@ -9,14 +9,14 @@ body{
     justify-content: row;
     justify-content: center;
 }
-/* .fruta{
-    padding-left: 40px;
-} */
+.fruta{
+    display: flex;
+    justify-content: row;
+    justify-content: center;
+}
 .button {
     font-family: 'Fascinate', cursive;
     color: black;
-    margin: 20px;
-    height: 70px;
     border: none;
     background-color: rgb(126,219,87);
 }
