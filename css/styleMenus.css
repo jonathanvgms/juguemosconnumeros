@@ -4,9 +4,6 @@ html {
 body{
     font-family: 'Fascinate', cursive;
 }
-.columns{
-    /* background-color: green; */
-}
 
 .titulo {
     color: white;
@@ -19,6 +16,12 @@ img {
     border-radius: 20%;
 }
 
-button{
+.button{
     font-family: 'Fascinate', cursive;
+    color: black;
+    background-color: #7edb57;
+    border: #7edb57;
+    
 }
+/* rgb(126,219,87) */
+/* #f3861e */
