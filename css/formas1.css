@@ -1,0 +1,13 @@
+html{
+    background-color: rgb(251, 101, 0);
+}
+
+.arriva{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    color: black;
+    font-family: ;
+}
