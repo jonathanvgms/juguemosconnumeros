@@ -1,0 +1,33 @@
+html{
+    background-color: #003F5D;
+}
+body{
+    font-family: 'Fascinate', cursive;
+}
+
+.arriva{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.fruta{
+    display: flex;
+    justify-content: row;
+    justify-content: center;
+}
+
+/* BOTON */
+.button {
+    /* FUENTE DE LA PALABRA */
+    font-family: 'Fascinate', cursive;
+    /* COLOR DE LA PALABRA */
+    color: black;
+    /* SIN BORDE */
+    border: none;
+    /* ALTURA DEL BOTON */
+    height: 100px;
+    /* FONDO DE COLOR DEL BOTON */
+    background-color: rgb(126,219,87);
+}
