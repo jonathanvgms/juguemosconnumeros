@@ -18,8 +18,8 @@ body{
     justify-content: center;
 }
 
-/* BOTON */
-.button {
+/* BOTON ADELANTE*/
+.adelante  {
     /* FUENTE DE LA PALABRA */
     font-family: 'Fascinate', cursive;
     /* COLOR DE LA PALABRA */
@@ -30,4 +30,17 @@ body{
     height: 100px;
     /* FONDO DE COLOR DEL BOTON */
     background-color: rgb(126,219,87);
+}
+/* BOTON ATRAS*/
+.atras  {
+    /* FUENTE DE LA PALABRA */
+    font-family: 'Fascinate', cursive;
+    /* COLOR DE LA PALABRA */
+    color: black;
+    /* SIN BORDE */
+    border: none;
+    /* ALTURA DEL BOTON */
+    height: 100px;
+    /* FONDO DE COLOR DEL BOTON */
+    background-color: rgb(243, 134, 30);
 }
