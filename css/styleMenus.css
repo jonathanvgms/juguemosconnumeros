@@ -19,6 +19,7 @@ img {
 .button{
     font-family: 'Fascinate', cursive;
     color: black;
+    box-shadow: 5px 5px 5px rgb(29, 28, 28);
     background-color: rgb(126, 219, 87);
     border: rgb(126, 219, 87);
     font-size: 40px;

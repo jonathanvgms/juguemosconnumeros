@@ -1,5 +1,5 @@
 html{
-    background-color: #003F5D;
+    background-color: #df7723;
 }
 body{
     font-family: 'Fascinate', cursive;
@@ -17,28 +17,22 @@ body{
     justify-content: row;
     justify-content: center;
 }
-
-/* BOTON ADELANTE*/
-.adelante  {
-    /* FUENTE DE LA PALABRA */
-    font-family: 'Fascinate', cursive;
-    /* COLOR DE LA PALABRA */
-    color: black;
-    /* SIN BORDE */
-    border: none;
-    /* ALTURA DEL BOTON */
-    height: 100px;
-    /* FONDO DE COLOR DEL BOTON */
-    background-color: rgb(126,219,87);
+.btn {
+    border: 6px solid;
+    border-radius: 2rem;
+    box-shadow: 5px 5px 5px rgb(29, 28, 28);
 }
-/* BOTON ATRAS*/
-.atras  {
+.btn:hover{
+    background-color: blue;
+}
+/* BOTON */
+.button {
     /* FUENTE DE LA PALABRA */
     font-family: 'Fascinate', cursive;
     /* COLOR DE LA PALABRA */
     color: black;
     /* SIN BORDE */
-    border: none;
+    border: solid black;
     box-shadow: 5px 5px 5px rgb(29, 28, 28);
     /* ALTURA DEL BOTON */
     height: 100px;
