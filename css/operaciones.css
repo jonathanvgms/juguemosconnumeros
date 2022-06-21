@@ -26,6 +26,7 @@ body{
     color: black;
     /* SIN BORDE */
     border: none;
+    box-shadow: 5px 5px 5px rgb(29, 28, 28);
     /* ALTURA DEL BOTON */
     height: 100px;
     /* FONDO DE COLOR DEL BOTON */
