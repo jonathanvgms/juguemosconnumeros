@@ -61,7 +61,7 @@ function cambiar9(){
         location.href = "./reto9.html";
     }, 1000);
 }
-function cambiarOtro(params) {
+function cambiarOtro() {
     sound.play();
     setTimeout(() => {
         location.href = "./menu.html"
