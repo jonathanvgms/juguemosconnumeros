@@ -11,28 +11,28 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="css/reto1.css">
-    <script src="./JS/index.js"></script>
+    
     <title>CUARTO RETO</title>
 </head>
 <body>
     <div class="columns">
         <div class="column arriva is-6 is-offset-3 has-text-centered">
             <figure class="image is-128x128">
-                <button class="btn " onclick="soundError.play()"> <img src="IMG/NUMEROS/3trans.png" alt="tres"></button>
+                <button id="error1" class="btn " onclick="errores1()"> <img src="IMG/NUMEROS/3trans.png" alt="tres"></button>
             </figure>
             
             <figure class="image is-128x128">
-                <button class="btn " onclick="soundError.play()" ><img src="IMG/NUMEROS/7trans.png" alt="siete"></button>
+                <button id="error2" class="btn " onclick="errores2()" ><img src="IMG/NUMEROS/7trans.png" alt="siete"></button>
             </figure>
         </div>
     </div>
     <div class="columns">
         <div class="column arriva is-6 is-offset-3 has-text-centered">
             <figure class="image is-128x128">
-                <button class="btn " onclick="soundError.play()"> <img src="IMG/NUMEROS/6trans.png" alt="seis"></button>
+                <button id="error3" class="btn " onclick="errores3()"> <img src="IMG/NUMEROS/6trans.png" alt="seis"></button>
             </figure>
             <figure class="image is-128x128">
-                <button class="btn " onclick="cambiar5()"> <img src="IMG/NUMEROS/4trans.png" alt="cuatro"></button>
+                <button id="hola10" class="btn " onclick="cambiar5()"> <img src="IMG/NUMEROS/4trans.png" alt="cuatro"></button>
             </figure>
             
         </div>
@@ -58,5 +58,7 @@
             <button onclick="window.location.href='reto3.html'" class="button is-large is-responsive is-fullwidth is-rounded">ATRAS</button>
         </div>
     </div>
+
+    <script src="./JS/index.js"></script>
 </body>
 </html>
