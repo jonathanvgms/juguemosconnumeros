@@ -1,15 +1,9 @@
 html{
     background-color: #0286c4;
-    /* background-image: url("../IMG/fondoA.jpg"); */
-    /* background-image: url("../IMG/A.jpeg"); */
-    /* background-image: url("../IMG/B.jpeg"); */
-    /* background-image: url("../IMG/C.jpeg"); */
-    /* background-image: url("../IMG/D.jpeg"); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
-    /* background-attachment:scroll; */
 }
 body{
     font-family: 'Fascinate', cursive;
@@ -36,5 +30,3 @@ img {
     height: 100px;
     
 }
-/* rgb(126,219,87) */
-/* #f3861e */
