@@ -5,10 +5,40 @@ html{
 
 .arriva{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
 }
 .title{
     color: black;
     font-family: 'Fascinate', cursive;
+}
+
+/* BOTON ADELANTE*/
+.adelante  {
+    /* FUENTE DE LA PALABRA */
+    font-family: 'Fascinate', cursive;
+    /* COLOR DE LA PALABRA */
+    color: black;
+    /* SIN BORDE */
+    border: none;
+    box-shadow: 5px 5px 5px rgb(29, 28, 28);
+    /* ALTURA DEL BOTON */
+    height: 70px;
+    /* FONDO DE COLOR DEL BOTON */
+    background-color: rgb(126,219,87);
+}
+/* BOTON ATRAS*/
+.atras  {
+    /* FUENTE DE LA PALABRA */
+    font-family: 'Fascinate', cursive;
+    /* COLOR DE LA PALABRA */
+    color: black;
+    /* SIN BORDE */
+    border: none;
+    box-shadow: 5px 5px 5px rgb(29, 28, 28);
+    /* ALTURA DEL BOTON */
+    height: 70px;
+    /* FONDO DE COLOR DEL BOTON */
+    background-color: rgb(243, 134, 30);
 }
