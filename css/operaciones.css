@@ -29,7 +29,7 @@ body{
     border: none;
     box-shadow: 5px 5px 5px rgb(29, 28, 28);
     /* ALTURA DEL BOTON */
-    height: 100px;
+    height: 70px;
     /* FONDO DE COLOR DEL BOTON */
     background-color: rgb(126,219,87);
 }
@@ -43,7 +43,7 @@ body{
     border: none;
     box-shadow: 5px 5px 5px rgb(29, 28, 28);
     /* ALTURA DEL BOTON */
-    height: 100px;
+    height: 70px;
     /* FONDO DE COLOR DEL BOTON */
     background-color: rgb(243, 134, 30);
 }
