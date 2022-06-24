@@ -30,12 +30,12 @@ function cambiar2(){
 }
     function myf1() {
         var boton1 = document.getElementById('hola10');
-        boton1.style.backgroundColor = 'green';
+        boton1.style.backgroundColor = '#33FF00';
     }
 
     function myf2() {
         var boton2 = document.getElementById('error1');
-        boton2.style.backgroundColor = 'yellow';
+        boton2.style.backgroundColor = '#FF0000';
         setTimeout(() => {
             boton2.style.backgroundColor = 'white';
         }, 1000);
@@ -43,14 +43,14 @@ function cambiar2(){
 
     function myf3() {
         var boton3 = document.getElementById('error2');
-        boton3.style.backgroundColor = 'yellow';
+        boton3.style.backgroundColor = '#FF0000';
         setTimeout(() => {
             boton3.style.backgroundColor = 'white';
         }, 1000);
     }
     function myf4() {
         var boton4 = document.getElementById('error3');
-        boton4.style.backgroundColor = 'yellow';
+        boton4.style.backgroundColor = '#FF0000';
         setTimeout(() => {
             boton4.style.backgroundColor = 'white';
         }, 1000);

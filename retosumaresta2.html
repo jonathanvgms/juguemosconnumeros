@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 
     <link rel="stylesheet" href="css/retosumaresta.css">
-    <script src="./JS/index2.js"></script>
     <title>RETO SUMA RESTA 2</title>
 </head>
 <body>
@@ -32,20 +31,20 @@
     <div class="columns">
         <div class="column arriva is-6 is-offset-3 has-text-centered">
             <figure class="image is-128x128">
-                <button class="btn " onclick="soundError.play()"> <img src="IMG/NUMEROS/3trans.png" alt="tres"></button>
+                <button id="error1" class="btn " onclick="errores1()"> <img src="IMG/NUMEROS/3trans.png" alt="tres"></button>
             </figure>
             <figure class="image is-128x128">
-                <button class="btn " onclick="soundError.play()" ><img src="IMG/NUMEROS/9trans.png" alt="nuece"></button>
+                <button id="error2" class="btn " onclick="errores2()" ><img src="IMG/NUMEROS/9trans.png" alt="nuece"></button>
             </figure>
         </div>
     </div>
     <div class="columns">
         <div class="column arriva is-6 is-offset-3 has-text-centered">
             <figure class="image is-128x128">
-                <button class="btn " onclick="soundError.play()" > <img src="IMG/NUMEROS/7trans.png" alt="siete"></button>
+                <button id="error3" class="btn " onclick="errores3()" > <img src="IMG/NUMEROS/7trans.png" alt="siete"></button>
             </figure>
             <figure class="image is-128x128">
-                <button class="btn " onclick="cambiar3()"  > <img src="IMG/NUMEROS/6trans.png" alt="seis"></button>
+                <button id="hola10" class="btn" onclick="cambiar3()"  > <img src="IMG/NUMEROS/6trans.png" alt="seis"></button>
             </figure>
         </div>
     </div>
@@ -54,5 +53,8 @@
             <button onclick="window.location.href='retosumaresta1.html'" class="button is-fullwidth is-bordered is-responsive is-rounded">ATRAS</button>
         </div>
     </div>
+
+    <script src="./JS/index2.js"></script>
+
 </body>
 </html>
