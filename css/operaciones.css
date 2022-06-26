@@ -47,3 +47,13 @@ body{
     /* FONDO DE COLOR DEL BOTON */
     background-color: rgb(243, 134, 30);
 }
+
+.box{
+    display: flex;
+    justify-content: row;
+}
+.column{
+    display: flex;
+    justify-content: row;
+    align-items: baseline;
+}
