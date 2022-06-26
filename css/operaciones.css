@@ -44,12 +44,11 @@ body{
 }
 .column{
     display: flex;
-    /* justify-content: row; */
     align-items: center;
 }
 .fila{
     display: flex;
-    justify-content: column;
+    justify-content: center;
 }
 .box{
     background-color: chocolate;

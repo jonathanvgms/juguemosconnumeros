@@ -23,9 +23,9 @@ body{
     border-radius: 2rem;
     box-shadow: 5px 5px 5px rgb(29, 28, 28);
 }
-/* .btn:hover{
+.btn:hover{
     background-color: blue;
-} */
+}
 
 /* BOTON */
 .button {
