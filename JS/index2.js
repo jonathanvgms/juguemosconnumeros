@@ -4,11 +4,7 @@ var sound = new Audio();
 var soundError = new Audio();
     soundError.src = "./SOUND/incorrecto.mp3";
 
-// document.addEventListener('DOMContentLoaded', () => {
-//     var boton1 = document.getElementById('hola10');
-//     console.log(boton1)
-//     boton1.addEventListener("click", myf1);
-// })
+
 function errores1() {
     soundError.play();
         myf2();
