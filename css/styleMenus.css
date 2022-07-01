@@ -16,11 +16,15 @@ body{
     color: black;
 }
 
-img {
+.logo img {
     border-radius: 20%;
 }
+.play{
+    width: 40%;
+    transform: translateY(-70px);
+}
 
-.button{
+/* .button{
     font-family: 'Fascinate', cursive;
     color: black;
     box-shadow: 5px 5px 5px rgb(29, 28, 28);
@@ -29,4 +33,4 @@ img {
     font-size: 40px;
     height: 100px;
     
-}
+} */

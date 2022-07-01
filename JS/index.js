@@ -103,6 +103,6 @@ function cambiarOtro() {
     myf1();
     sound.play();
     setTimeout(() => {
-        location.href = "./menu.html"
+        location.href = "./menu.html";
     }, 1000);
 }

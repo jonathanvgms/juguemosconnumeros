@@ -44,44 +44,30 @@ function redireccionar() {
     location.href = "menu.html";
 }
 function activar1() {
-    // btnRetos.disabled=false;
     setCookie("btnRetos.disabled", false, 10);
 }
-
-// document.addEventListener('DOMContentLoaded', () => {
-//     let value = getCookie("btnRetos.disabled")
-//     btnRetos.disabled = value
-// })
-
-// function activar2() {
-//     btnOperciones.disabled=false;
-//     setCookie("btnOperciones.disabled",false,10);
-// }
-
-// function activar3() {
-//     btnRetosOpera.disabled=false;
-//     setCookie("btnRetosOpera.disabled",false,10);
-// }
-
-// function activar4() {
-//     btnFiguras.disabled=false;
-//     setCookie("btnFiguras.disabled",false,10);
-// }
-// function activar5() {
-//     btnRetosFig.disabled=false;
-//     setCookie("btnRetosFig.disabled",false,10);
-// }
-// function activar6() {
-//     btnRetoFinal.disabled=false;
-//     setCookie("btnRetoFinal.disabled",false,10);
-// }
+function activar2() {
+    setCookie("btnOperciones.disabled",false,10);
+}
+function activar3() {
+    setCookie("btnRetosOpera.disabled",false,10);
+}
+function activar4() {
+    setCookie("btnFiguras.disabled",false,10);
+}
+function activar5() {
+    setCookie("btnRetosFig.disabled",false,10);
+}
+function activar6() {
+    setCookie("btnRetoFinal.disabled",false,10);
+}
 
 
 
 
 function activartodos() {
     if (getCookie("btnRetos.disabled") == false) {
-        btnRetos.disabled = getCookie("btnRetos.disabled");
+        btnRetos.disabled = getCookie("btnRetos.disabled");        
     }
     if (getCookie("btnOperciones.disabled") == false) {
         btnRetos.disabled = getCookie("btnRetos.disabled");
