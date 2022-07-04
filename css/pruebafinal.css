@@ -1,0 +1,46 @@
+html{
+    background-color: #df2b2b;
+    /* background-image: url("../IMG/frutas1.png"); */
+}
+body{
+    font-family: 'Fascinate', cursive;
+}
+
+.arriva{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.fruta{
+    display: flex;
+    justify-content: row;
+    align-items: center;
+}
+.btn {
+    border: 6px solid;
+    border-radius: 2rem;
+    box-shadow: 5px 5px 5px rgb(29, 28, 28);
+}
+.btn:hover{
+    background-color: blue;
+}
+
+/* BOTON */
+.button {
+    /* FUENTE DE LA PALABRA */
+    font-family: 'Fascinate', cursive;
+    /* COLOR DE LA PALABRA */
+    color: black;
+    /* SIN BORDE */
+    border: solid;
+    box-shadow: 5px 5px 5px rgb(29, 28, 28);
+    /* ALTURA DEL BOTON */
+    height: 100px;
+    /* FONDO DE COLOR DEL BOTON */
+    background-color: rgb(243, 134, 30);
+}
+.suma{
+    width: 100px;
+}
