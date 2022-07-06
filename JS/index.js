@@ -16,6 +16,8 @@ function errores3() {
     soundError.play();
         myf4();
 }
+
+
 function cambiar2(){
     myf1();
     sound.play();
@@ -106,3 +108,5 @@ function cambiarOtro() {
         location.href = "./menu.html";
     }, 1000);
 }
+
+
